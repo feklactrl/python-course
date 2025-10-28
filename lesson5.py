@@ -21,21 +21,26 @@
 
 # дз 1
 
-animals = ['кошка', 'собака', 'крыса', 'ящерица', 'рыбка']
-print('исходный список: ', animals)
+# animals = ['кошка', 'собака', 'крыса', 'ящерица', 'рыбка']
+# print('исходный список: ', animals)
+#
+# animals.append('хомяк')
+# animals.insert(2, 'курица')
+# print('после добавления: ', animals)
+#
+# animals.remove('рыбка')
+# print('после удаления: ', animals)
+#
+# animals.sort()
+# print('отсортированный список: ', animals)
+#
+# animals_copy = animals.copy()
 
-animals.append('хомяк')
-animals.insert(2, 'курица')
-print('после добавления: ', animals)
 
-animals.remove('рыбка')
-print('после удаления: ', animals)
+numbers = [1, 5, 7, 4, 9, 3]
+copy_numbers = numbers.copy()
 
-animals.sort()
-print('отсортированный список: ', animals)
-
-result = animals.sort()
-print('вот мой обновленный список', result)
-
-
+numbers.sort()
+print("исходный список:", copy_numbers)
+print("отсортированный список:", numbers)
 

@@ -23,10 +23,12 @@
 # дополнительные задания
 
 numbers = [1,5,7,6,8,9,3,4,2,6]
-total = 0
+print("четные числа: ")
+
 for number in numbers:
     if number % 2 == 0:
         print(number)
-    min([number])
-    max([number])
-    print(f"минимальное: {min}, максимальное: {max}")
+
+minimum = min(numbers)
+maximum = max(numbers)
+print(f"минимальное число: {minimum}, максимальное число: {maximum}")
